@@ -1,0 +1,12 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & DB (On ne veut pas envoyer les logs de test)
+data/*.db
+
+# Streamlit
+.streamlit/
